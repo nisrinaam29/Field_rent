@@ -1,0 +1,142 @@
+
+.bmain {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    font-size: xx-large;
+}
+
+.bg-main {
+    background: url('/picture/mainbg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+    padding: 50px;
+    
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container.banner {
+    padding: 50px; /* Adjust the padding to your preference */
+  
+}
+
+
+.main-search {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container.frame {
+    flex: 1; /* Allow equal distribution of frames */
+    margin: 10px; /* Adjust the margin between frames */
+}
+
+
+.player1 {
+    background: url('/picture/player1.png');
+
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 30px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 15px #160c0c);
+    background-size: 400px;
+   
+    background-position: center;
+    z-index: 2;
+    transform: matrix(1, -0.05, 0.02, 1, 0, 0);
+}
+
+.picture1 {
+    background: url('/picture/basketball1.jpeg');
+    background-position: center;
+    padding-top: 80px;
+    width: 340px;
+    height: 500px;
+    position: relative;
+    filter: drop-shadow(0px 0px 15px #C9C9C9);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.picture2 {
+    background: url('/picture/football.jpeg');
+ 
+    position: relative;
+    background-size: cover;
+    background-position: 30% center;
+    width: 340px;
+    height: 500px;
+
+    filter: drop-shadow(0px 0px 15px #C9C9C9);
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+.picture3 {
+    background: url('/picture/badminton.jpeg');
+    position: relative;
+    background-position: 70% center;
+    width: 340px;
+    height: 500px;
+    background-size: cover;
+    filter: drop-shadow(0px 0px 15px #C9C9C9);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+.picture4 {
+    background: url('/picture/volley.jpg');
+    position: relative;
+    background-position: center;
+    padding-top: 80px;
+    width: 340px;
+    height: 500px;
+  
+    
+    filter: drop-shadow(0px 0px 15px #C9C9C9);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.picture5 {
+    background: url('/picture/swimming.jpeg');
+    position: relative;
+    background-position: center;
+    padding-top: 80px;
+    width: 340px;
+    height: 500px;
+    background-size: cover;
+
+    filter: drop-shadow(0px 0px 15px #C9C9C9);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.picture6 {
+    background: url('/picture/tennis.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    width: 340px;
+    height: 500px;
+    filter: drop-shadow(0px 0px 15px #C9C9C9);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* manage wrapper */
+.manahe-wrapper{
+    padding: 20px;
+}
